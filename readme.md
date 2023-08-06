@@ -32,6 +32,10 @@ Start the app, see the result
 ```
 $ yarn start
 ```
+The result will be in terminal console
+
+Note: you can also modify the variable before running the function,
+search for keyword "Modify" in index.ts(entry point)
 
 About how it works
 Inside each task/index.ts, the implementation, will have the comment show how it works
