@@ -2,8 +2,8 @@
 
 ```
 | task1
-| - index.ts
-| - test.ts
+| - index.ts  // <-- implementation
+| - test.ts  // <-- unit test case
 | task2
 | - index.ts
 | - test.ts
