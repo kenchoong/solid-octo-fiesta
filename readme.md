@@ -34,6 +34,20 @@ $ yarn start
 ```
 The result will be in terminal console
 
+Proof of result: 
+```
+yarn run v1.22.19
+$ yarn tsc & node dist/index.js
+$ /Users/kenchoong/Desktop/splyt/node_modules/.bin/tsc
+== Testing Task 1 ==
+== Testing Task 2 ==
+Task 2 Result: 19
+== Testing Task 3 ==
+Task 3 Result: 12:15
+Task 1 Result: 5
+✨  Done in 0.56s.
+```
+
 Note: you can also modify the variable before running the function,
 search for keyword "Modify" in index.ts(entry point)
 
