@@ -17,8 +17,8 @@ function createTargetFunction(succeedsOnAttempt: number) {
 console.log("== Testing Task 1 ==");
 const targetFunction1 = createTargetFunction(5); // Modify succeedsOnAttempt here
 retryFailures(targetFunction1, 5) // Modify retry count here
-  .then((result) => console.log("Result:", result))
-  .catch((error) => console.error("Error:", error));
+  .then((result) => console.log("Task 1 Result:", result))
+  .catch((error) => console.error("Task 1 Error:", error));
 
 // Task 2: Default Arguments
 console.log("== Testing Task 2 ==");
@@ -27,7 +27,7 @@ function add(a: any, b: any) {
 }
 const newFunction = defaultArguments(add, { b: 9 }); // Modify defaults here
 const result2 = newFunction(10); // Modify variable here
-console.log("Result:", result2);
+console.log("Task 2 Result:", result2);
 
 // Task 3: Find Appointment
 console.log("== Testing Task 3 ==");
@@ -56,4 +56,4 @@ const schedules = [
 let duration = 60;
 
 const result3 = findAppointment(schedules, duration);
-console.log("Result:", result3);
+console.log("Task 3 Result:", result3);
