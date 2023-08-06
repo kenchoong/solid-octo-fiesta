@@ -35,3 +35,5 @@ $ yarn start
 
 About how it works
 Inside each task/index.ts, the implementation, will have the comment show how it works
+
+If still need anything, I happy to clarify
