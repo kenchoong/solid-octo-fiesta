@@ -24,6 +24,10 @@ export function defaultArguments(func: any, newDefaults: any) {
 
   const mergedDefaults = { ...(func.defaults || {}), ...newDefaults };
 
+  // Map the function params
+  // map it with default name
+  // example, if the input name same with default name
+  // use the input param value
   const wrappedFunc = function (...args: any[]) {
     const extendedArgs = paramNames.map((name: string, index: number) =>
       args[index] !== undefined ? args[index] : mergedDefaults[name]
